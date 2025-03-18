@@ -1,40 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Personal Finance Visualizer
 
-## Getting Started
+## 🚀 Project Overview
+Personal Finance Visualizer is a web application that helps users track their transactions, set budgets, and visualize spending trends using interactive charts.
 
-First, run the development server:
+## 📌 Features
+- **Transaction Management**: Add, edit, delete transactions.
+- **Category-wise Breakdown**: Track expenses by predefined categories.
+- **Budgeting System**: Set budgets for different categories and compare with actual spending.
+- **Interactive Charts**: View financial data with Recharts (Pie & Bar charts).
+- **Dashboard**: Shows the total expenses, budget insights, and recent transactions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠️ Tech Stack
+- **Frontend**: Next.js, React, Tailwind CSS, shadcn/ui
+- **Backend**: Next.js API Routes, MongoDB
+- **Charting Library**: Recharts
+- **Deployment**: Vercel
+
+---
+
+## 🔧 Setup & Installation
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/your-username/personal-finance-visualizer.git
+cd personal-finance-visualizer
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### 3️⃣ Set Up Environment Variables
+Create a `.env` file in the project root and add:
+```
+MONGODB_URI=your_mongodb_connection_string
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### 4️⃣ Run the Development Server
+```sh
+npm run dev
+```
+The app will be available at `http://localhost:3000`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Deployment on Vercel
+1. Install Vercel CLI (if not installed):
+   ```sh
+   npm install -g vercel
+   ```
+2. Login to Vercel:
+   ```sh
+   vercel login
+   ```
+3. Deploy the app:
+   ```sh
+   vercel --prod
+   ```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📞 Contact
+For any inquiries, reach out via [LinkedIn](https://linkedin.com/in/your-profile) or email: your.email@example.com
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
