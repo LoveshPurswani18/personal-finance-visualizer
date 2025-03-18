@@ -23,7 +23,7 @@ Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/personal-finance-visualizer.git
+git clone https://github.com/LoveshPurswani18/personal-finance-visualizer.git
 cd personal-finance-visualizer
 ```
 
@@ -35,7 +35,7 @@ npm install
 ### 3️⃣ Set Up Environment Variables
 Create a `.env` file in the project root and add:
 ```
-MONGODB_URI=your_mongodb_connection_string
+MONGODB_URI="mongodb+srv://dev_lovesh:dev123@internship-assignments.brnzt.mongodb.net/?retryWrites=true&w=majority&appName=Internship-assignments"
 ```
 
 ### 4️⃣ Run the Development Server
@@ -44,29 +44,9 @@ npm run dev
 ```
 The app will be available at `http://localhost:3000`
 
----
-
-## 🚀 Deployment on Vercel
-1. Install Vercel CLI (if not installed):
-   ```sh
-   npm install -g vercel
-   ```
-2. Login to Vercel:
-   ```sh
-   vercel login
-   ```
-3. Deploy the app:
-   ```sh
-   vercel --prod
-   ```
-
----
-
-## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
 ## 📞 Contact
-For any inquiries, reach out via [LinkedIn](https://linkedin.com/in/your-profile) or email: your.email@example.com
+For any inquiries, reach out to me via [LinkedIn](https://www.linkedin.com/in/lovesh-purswani/) or email: loveshpradeeppurswani@gmail.com
 
