@@ -17,7 +17,7 @@ export default function Navbar() {
     return (
         <nav className="bg-white shadow-md">
             <div className="container mx-auto flex items-center justify-between p-4">
-                <Link href={"/dashboard"} className="text-xl font-bold">
+                <Link href={"/"} className="text-xl font-bold">
                     Finance Visualizer
                 </Link>
                 <div className="flex gap-4">
