@@ -70,10 +70,10 @@ export default function Budgets() {
             onChange={(e) =>
               setFormData({ ...formData, amount: e.target.value })
             }
-            className="border p-2 w-full-mb-2 rounded-md"
+            className="border p-2 w-full rounded-md"
             required
           />
-          <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md ml-4">
+          <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md ml-4 mt-4">
             Set Budget
           </button>
         </form>

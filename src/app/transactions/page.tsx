@@ -184,7 +184,7 @@ export default function Transactions() {
           onChange={(e) =>
             setFormData({ ...formData, category: e.target.value })
           }
-          className="border rounded-md p-3 w-lg"
+          className="border rounded-md p-3 w-full"
           required
         >
           <option value="">Select Category</option>
